@@ -1,0 +1,6 @@
+app-admin/keepassxc -network
+
+x11-misc/picom opengl drm doc dbus config-file
+
+#x11-base/xorg-server -suid
+

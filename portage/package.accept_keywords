@@ -1,0 +1,16 @@
+#Discord
+net-im/discord-bin ~amd64
+#Spotify
+media-sound/spotify ~amd64
+#Printscreen
+media-gfx/maim ~amd64
+x11-misc/slop ~amd64
+#Steam
+games-util/steam-launcher ~amd64
+games-util/steam-meta ~amd64
+games-util/steam-client-meta ~amd64
+games-util/steam-games-meta ~amd64
+#Vscode
+app-editors/vscodium ~amd64
+#System info
+sys-process/gotop ~amd64

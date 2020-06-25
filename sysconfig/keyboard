@@ -1,0 +1,10 @@
+#xorg.conf
+
+
+Section "InputClass"
+	Identifier "keyboard0"
+	MatchIsKeyboard "on"
+	Option "XkbLayout" "us,br"
+	Option "XkbOptions" "grp:alt_shift_toggle"
+EndSection
+
