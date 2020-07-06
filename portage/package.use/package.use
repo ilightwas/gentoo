@@ -1,6 +1,15 @@
+# Keepass
 app-admin/keepassxc -network
 
-x11-misc/picom opengl drm doc dbus config-file
+# Picom
+x11-misc/picom config-file dbus doc drm opengl
 
-#x11-base/xorg-server -suid
+# X rootless
+# x11-base/xorg-server -suid
 
+# Mesa
+media-libs/mesa vulkan vulkan-overlay
+
+
+# Temp
+sys-libs/ncurses -gpm
