@@ -37,7 +37,9 @@ sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
 sys-process/htop
 virtual/jdk
+www-client/chromium
 www-client/firefox
+www-misc/profile-sync-daemon
 x11-apps/mesa-progs
 x11-apps/xinit
 x11-base/xorg-server
