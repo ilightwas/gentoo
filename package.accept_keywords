@@ -25,6 +25,8 @@ x11-misc/slop ~amd64
 # Fonts
 media-fonts/jetbrains-mono ~amd64
 media-fonts/iosevka ~amd64
+media-fonts/fantasque-sans-mono ~amd64
+media-fonts/steamfonts ~amd64
 
 # Audio, ALSA/Pulseaudio
 media-sound/pulsemixer ~amd64

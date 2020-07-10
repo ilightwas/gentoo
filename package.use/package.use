@@ -10,6 +10,14 @@ x11-misc/picom config-file dbus doc drm opengl
 # Mesa
 media-libs/mesa vulkan vulkan-overlay
 
+# Sys
+x11-misc/xdg-user-dirs gtk
+
+# Steam
+games-util/steam-meta steamruntime
+games-util/steam-client-meta steamruntime video_cards_nvidia pulseaudio steamfonts 
+games-util/steam-launcher steamruntime
+games-util/steam-games-meta steamruntime video_cards_nvidia mono
 
 # Temp
-sys-libs/ncurses -gpm
+# sys-libs/ncurses -gpm
