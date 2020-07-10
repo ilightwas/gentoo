@@ -1,0 +1,2 @@
+# Conflicts with -systemd
+>www-misc/profile-sync-daemon-5.75
