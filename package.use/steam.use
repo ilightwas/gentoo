@@ -3,7 +3,7 @@
 games-util/steam-meta steamruntime
 games-util/steam-client-meta steamruntime video_cards_nvidia pulseaudio steamfonts 
 games-util/steam-launcher steamruntime
-games-util/steam-games-meta steamruntime video_cards_nvidia mono
+games-util/steam-games-meta steamruntime video_cards_nvidia
 
 # Steam manual install
 app-arch/bzip2 abi_x86_32
