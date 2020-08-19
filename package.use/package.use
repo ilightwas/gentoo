@@ -13,5 +13,8 @@ media-libs/mesa vulkan vulkan-overlay
 # Sys
 x11-misc/xdg-user-dirs gtk
 
+# Mouse tool #gig overlay
+dev-libs/libratbag -systemd
+
 # Temp
 # sys-libs/ncurses -gpm

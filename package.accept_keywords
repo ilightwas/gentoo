@@ -10,7 +10,6 @@ media-fonts/jetbrains-mono
 
 #Printscreen
 media-gfx/maim ~amd64
-media-sound/pulsemixer
 
 #Spotify
 media-sound/spotify ~amd64
@@ -30,3 +29,9 @@ media-fonts/steamfonts ~amd64
 
 # Audio, ALSA/Pulseaudio
 media-sound/pulsemixer ~amd64
+
+# Mouse tool #gig overlay
+dev-libs/libratbag ~amd64
+dev-python/python-evdev ~amd64
+app-misc/piper ~amd64
+
