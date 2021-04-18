@@ -35,3 +35,5 @@ dev-libs/libratbag ~amd64
 dev-python/python-evdev ~amd64
 app-misc/piper ~amd64
 
+# bug with current 7.74.0-r2 
+net-misc/curl ~amd64
