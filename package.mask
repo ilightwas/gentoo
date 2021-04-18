@@ -1,2 +1,6 @@
 # Conflicts with -systemd
 >www-misc/profile-sync-daemon-5.75
+
+# kernel
+>sys-kernel/gentoo-sources-5.4.97
+
