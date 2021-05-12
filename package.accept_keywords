@@ -7,7 +7,7 @@ games-util/steam-client-meta ~amd64
 games-util/steam-games-meta ~amd64
 games-util/steam-launcher ~amd64
 games-util/steam-meta ~amd64
-media-fonts/jetbrains-mono
+games-util/game-device-udev-rules ~amd64
 
 # Printscreen
 media-gfx/maim ~amd64
@@ -46,6 +46,7 @@ app-misc/piper ~amd64
 # Terminals
 x11-terms/kitty ~amd64
 x11-terms/kitty-terminfo ~amd64
+app-misc/pfetch ~amd64
 
 # bug with current 7.74.0-r2 
 net-misc/curl ~amd64
