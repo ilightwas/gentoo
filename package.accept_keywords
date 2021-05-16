@@ -34,6 +34,7 @@ media-fonts/jetbrains-mono ~amd64
 media-fonts/iosevka ~amd64
 media-fonts/fantasque-sans-mono ~amd64
 media-fonts/steamfonts ~amd64
+media-fonts/symbola ~amd64
 
 # Audio, ALSA/Pulseaudio
 media-sound/pulsemixer ~amd64
@@ -47,6 +48,9 @@ app-misc/piper ~amd64
 x11-terms/kitty ~amd64
 x11-terms/kitty-terminfo ~amd64
 app-misc/pfetch ~amd64
+
+# color emoji patch in custom repo
+x11-libs/libXft-bgra-patch ~amd64
 
 # bug with current 7.74.0-r2 
 net-misc/curl ~amd64
