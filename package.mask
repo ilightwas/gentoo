@@ -5,4 +5,4 @@
 >sys-kernel/gentoo-sources-5.4.97
 
 # bug with 7.74.0-r2
-<net-misc/curl-7.75.0
+# <net-misc/curl-7.75.0

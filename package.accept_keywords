@@ -53,4 +53,4 @@ app-misc/pfetch ~amd64
 x11-libs/libXft-bgra-patch ~amd64
 
 # bug with current 7.74.0-r2 
-net-misc/curl ~amd64
+# net-misc/curl ~amd64
