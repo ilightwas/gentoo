@@ -9,6 +9,9 @@ games-util/steam-launcher ~amd64
 games-util/steam-meta ~amd64
 games-util/game-device-udev-rules ~amd64
 
+# Mc
+games-action/multimc ~amd64
+
 # Printscreen
 media-gfx/maim ~amd64
 
@@ -54,6 +57,13 @@ x11-libs/libXft-bgra-patch ~amd64
 
 # qt
 dev-qt/qtstyleplugins ~amd64
+
+# Virtualbox
+app-emulation/virtualbox ~amd64
+app-emulation/virtualbox-modules ~amd64
+
+# Gtk theme switcher (gui)
+lxde-base/lxappearance ~amd64
 
 # bug with current 7.74.0-r2 
 # net-misc/curl ~amd64
