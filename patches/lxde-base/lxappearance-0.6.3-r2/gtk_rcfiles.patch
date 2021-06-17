@@ -1,8 +1,8 @@
 diff --git a/src/lxappearance.c b/src/lxappearance.c
-index a4b7db3..f5074ec 100644
+index a4b7db3..337548a 100644
 --- a/src/lxappearance.c
 +++ b/src/lxappearance.c
-@@ -243,6 +243,18 @@ static void lxappearance_save_gtkrc()
+@@ -243,6 +243,19 @@ static void lxappearance_save_gtkrc()
      };
  
      char **gtkrc_files = gtk_rc_get_default_files();
@@ -13,15 +13,16 @@ index a4b7db3..f5074ec 100644
 +            GTK2_RC_FILES_SET = 1;
 +            char *env = malloc(sizeof(char) * strlen(tmpEnv) + 1);
 +            strcpy(env, tmpEnv);
-+            gtkrc_files = malloc(sizeof(char**) * 2);
++            gtkrc_files = malloc(sizeof(char*) * 2);
 +            *gtkrc_files = env;
++            *(gtkrc_files + 1) = NULL;
 +            g_debug("GTK2_RC_FILES set to: %s", *gtkrc_files);
 +        }
 +    }
      char *file_path = NULL;
      GString* content = g_string_sized_new(512);
  
-@@ -261,15 +273,15 @@ static void lxappearance_save_gtkrc()
+@@ -261,15 +274,15 @@ static void lxappearance_save_gtkrc()
          g_debug("none found, use hardcoded %s/.gtkrc-2.0",g_get_home_dir());
          file_path = g_build_filename(g_get_home_dir(), ".gtkrc-2.0", NULL);
      }
@@ -43,7 +44,7 @@ index a4b7db3..f5074ec 100644
  
      if(app.widget_theme)
          g_string_append_printf(content,
-@@ -435,6 +447,10 @@ static void lxappearance_save_gtkrc()
+@@ -435,6 +448,10 @@ static void lxappearance_save_gtkrc()
      g_string_free(content, TRUE);
      g_key_file_free(content_gtk3);
      g_free(file_path);
