@@ -2,3 +2,5 @@ make.profile
 repo.postsync.d
 repos.conf
 savedconfig
+package.use/zz-autounmask
+
