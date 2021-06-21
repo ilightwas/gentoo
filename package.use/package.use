@@ -19,6 +19,9 @@ dev-libs/libratbag -systemd
 # docs
 x11-libs/libX11 doc
 
+# Firefox
+www-client/firefox -clang dbus hwaccel pgo lto openh264 pulseaudio system-av1 system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-webp
+
 # Elogind
 sys-auth/elogind -policykit
 
