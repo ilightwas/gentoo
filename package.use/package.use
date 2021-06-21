@@ -19,5 +19,9 @@ dev-libs/libratbag -systemd
 # docs
 x11-libs/libX11 doc
 
+# Elogind
+sys-auth/elogind -policykit
+
 # Temp
 # sys-libs/ncurses -gpm
+
