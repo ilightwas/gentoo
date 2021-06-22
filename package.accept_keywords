@@ -56,6 +56,7 @@ sys-apps/bat ~amd64
 games-misc/lolcat ~amd64
 dev-ruby/optimist ~amd64
 dev-ruby/paint ~amd64
+games-misc/cowsay ~amd64
 
 # color emoji patch in custom repo
 x11-libs/libXft-bgra-patch ~amd64
