@@ -25,6 +25,10 @@ www-client/firefox -clang dbus hwaccel pgo lto openh264 pulseaudio system-av1 sy
 # Elogind
 sys-auth/elogind -policykit
 
+# Thumbnails
+media-video/ffmpegthumbnailer gtk jpeg png
+xfce-extra/tumbler jpeg ffmpeg pdf
+
 # Temp
 # sys-libs/ncurses -gpm
 
