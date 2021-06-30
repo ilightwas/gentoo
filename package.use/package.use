@@ -29,6 +29,9 @@ sys-auth/elogind -policykit
 media-video/ffmpegthumbnailer gtk jpeg png
 xfce-extra/tumbler jpeg ffmpeg pdf
 
+# Pidgin
+net-im/pidgin -gstreamer
+
 # Temp
 # sys-libs/ncurses -gpm
 
