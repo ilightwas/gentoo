@@ -35,3 +35,6 @@ net-im/pidgin -gstreamer
 # Temp
 # sys-libs/ncurses -gpm
 
+#circular dep fix for pulseaudio
+media-libs/libsndfile minimal
+
