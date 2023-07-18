@@ -11,6 +11,7 @@ games-util/steam-meta ~amd64
 games-util/game-device-udev-rules ~amd64
 
 # Mc
+games-action/prismlauncher ~amd64
 games-action/multimc ~amd64
 
 # Printscreen
