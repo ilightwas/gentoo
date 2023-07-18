@@ -38,3 +38,6 @@ net-im/pidgin -gstreamer
 #circular dep fix for pulseaudio
 media-libs/libsndfile minimal
 
+# doas
+app-admin/doas persist
+
