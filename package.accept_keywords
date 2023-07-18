@@ -1,6 +1,7 @@
 # Vscode
 app-editors/vscodium ~amd64
 app-editors/vscodium-bin ~amd64
+app-editors/vscode ~amd64
 
 # Steam
 games-util/steam-client-meta ~amd64
