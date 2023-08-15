@@ -1,6 +1,3 @@
 # Conflicts with -systemd
 >www-misc/profile-sync-daemon-5.75
 
-# bug with 7.74.0-r2
-# <net-misc/curl-7.75.0
-

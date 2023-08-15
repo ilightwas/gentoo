@@ -4,8 +4,8 @@ app-admin/keepassxc -network
 # Picom
 x11-misc/picom config-file dbus doc drm opengl
 
-# X rootless
-# x11-base/xorg-server -suid
+# X rootless, xephyr
+ x11-base/xorg-server -suid xephyr
 
 # Mesa
 media-libs/mesa vulkan vulkan-overlay
@@ -20,7 +20,7 @@ dev-libs/libratbag -systemd
 x11-libs/libX11 doc
 
 # Firefox
-www-client/firefox -clang dbus hwaccel pgo lto openh264 pulseaudio system-av1 system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-webp
+www-client/firefox clang dbus hwaccel pgo lto openh264 pulseaudio system-av1 system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-webp system-png screencast
 
 # Elogind
 sys-auth/elogind -policykit
@@ -40,4 +40,32 @@ media-libs/libsndfile minimal
 
 # doas
 app-admin/doas persist
+
+# ffmpeg
+media-video/ffmpeg openh264 nvenc
+
+# freetype font utilities
+media-libs/freetype utils
+
+# lynis
+app-forensics/lynis -cron
+
+# playerctl
+media-sound/playerctl introspection
+
+# mtp (fuse needed to showup files in gvfs folder)
+gnome-base/gvfs mtp fuse
+
+# vlc
+media-video/vlc truetype
+
+# wayland stuff
+# xdg-desktop-portal
+sys-apps/xdg-desktop-portal screencast
+# waybar
+gui-apps/waybar mpd mpris network tray upower experimental evdev
+# rofi
+gui-apps/rofi-wayland drun
+# seatd
+sys-auth/seatd -elogind server
 

@@ -9,6 +9,7 @@ games-util/steam-games-meta ~amd64
 games-util/steam-launcher ~amd64
 games-util/steam-meta ~amd64
 games-util/game-device-udev-rules ~amd64
+sys-libs/libudev-compat ~amd64
 
 # Mc
 games-action/prismlauncher ~amd64
@@ -26,6 +27,8 @@ net-im/discord-bin ~amd64
 # System info
 sys-process/gotop ~amd64
 x11-misc/slop ~amd64
+sys-process/nvtop ~amd64
+app-forensics/lynis ~amd64
 
 # Compositor
 x11-misc/picom ~amd64
@@ -40,6 +43,7 @@ media-fonts/iosevka ~amd64
 media-fonts/fantasque-sans-mono ~amd64
 media-fonts/steamfonts ~amd64
 media-fonts/symbola ~amd64
+media-fonts/jetbrainsmono-nerdfont ~amd64
 
 # Audio, ALSA/Pulseaudio
 media-sound/pulsemixer ~amd64
@@ -59,6 +63,7 @@ games-misc/lolcat ~amd64
 dev-ruby/optimist ~amd64
 dev-ruby/paint ~amd64
 games-misc/cowsay ~amd64
+app-shells/atuin ~amd64
 
 # color emoji patch in custom repo
 x11-libs/libXft-bgra-patch ~amd64
@@ -73,6 +78,35 @@ app-emulation/virtualbox-modules ~amd64
 # Gtk theme switcher (gui)
 lxde-base/lxappearance ~amd64
 
-# bug with current 7.74.0-r2 
-# net-misc/curl ~amd64
+# vaapi 
+media-libs/nvidia-vaapi-driver ~amd64
+
+# wayland / hyperland
+app-misc/brightnessctl ~amd64
+app-misc/nwg-look ~amd64
+dev-libs/date ~amd64
+dev-libs/hyprland-protocols ~amd64
+dev-libs/libliftoff ~amd64
+dev-libs/wayland-protocols ~amd64
+dev-qt/qtbase ~amd64
+dev-qt/qtdeclarative ~amd64
+dev-qt/qtshadertools ~amd64
+dev-qt/qtwayland ~amd64
+gui-apps/clipman ~amd64
+gui-apps/hyprpaper ~amd64
+gui-apps/kanshi ~amd64
+gui-apps/rofi-wayland ~amd64
+
+# trunk
+gui-apps/waybar **
+
+gui-apps/wofi ~amd64
+gui-libs/xdg-desktop-portal-hyprland ~amd64
+gui-wm/hyprland ~amd64
+media-libs/libdisplay-info ~amd64
+x11-apps/xcur2png ~amd64
+
+# firefox slot? ..
+www-client/firefox ~amd64
+dev-libs/nss ~amd64
 
